@@ -1,4 +1,5 @@
 # Input
+```javascript
 const obj = {
   key1: {
     innerkey: {
@@ -6,9 +7,11 @@ const obj = {
     }  
   }
 };
+```
 
 # Output
-
+```javascript
 {
   "key1.innerKey.innerinnerKey": "value"
 }
+```
